@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="/favicon.ico" sizes="32x32" />
+    <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/png" href="/favicon-192x192.png" sizes="192x192" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link id="manrope-fonts" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&display=swap" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Performance: preconnect to external origins used by the app (from env) -->
+    <title>blmn.ai | Render Architecture with AI</title>
+    <!-- Dynamically add preconnects based on environment variables (e.g., Auth0, custom API base URL) -->
+    <link rel="sitemap" type="application/xml" href="/sitemap.xml">
+    <script type="module" crossorigin src="/assets/index-CYESqDbD.js"></script>
+    <link rel="modulepreload" crossorigin href="/assets/preload-helper-BXl3LOEh.js">
+  
+    <link rel="canonical" href="https://blmn.ai/" data-blmn-managed="true" />
+    <meta name="description" content="Unlimited AI renderings with full creative control. Render, iterate, animate, and design photorealistic visuals for architects and real estate teams." />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Blue Moon AI" />
+    <meta property="og:title" content="blmn.ai | Render Architecture with AI" />
+    <meta property="og:description" content="Unlimited AI renderings with full creative control. Render, iterate, animate, and design photorealistic visuals for architects and real estate teams." />
+    <meta property="og:image" content="https://blmn.ai/og/landing_fallback.jpg" />
+    <meta property="og:url" content="https://blmn.ai/" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="blmn.ai | Render Architecture with AI" />
+    <meta name="twitter:description" content="Unlimited AI renderings with full creative control. Render, iterate, animate, and design photorealistic visuals for architects and real estate teams." />
+    <meta name="twitter:image" content="https://blmn.ai/og/landing_fallback.jpg" />
+    <script type="application/ld+json" data-blmn-schema="true">{"@context":"https://schema.org","@type":"Organization","name":"Blue Moon AI","url":"https://blmn.ai","logo":"https://blmn.ai/favicon.png"}</script>
+  
+  
+    <script>window.__BMM_GEO__ = {"isEU":false,"currency":"INR","country":"IN"};</script>
+  
+  </head>
+  <body>
+    <div id="root"></div>
+    <!-- Inline loader: visible instantly on app pages, dismissed by React once ready.
+         Lives outside #root so createRoot().render() doesn't destroy it prematurely. -->
+    <div id="inline-loader" style="position:fixed;inset:0;z-index:9999;display:flex;align-items:center;justify-content:center;background:#000;transition:opacity .3s ease-out;pointer-events:none">
+      <img src="/logo.png" alt="" width="56" height="56" style="width:56px;height:56px;object-fit:contain;animation:_ils 1.95s cubic-bezier(.18,0,.2,1) infinite;transform-origin:center"/>
+      <style>@keyframes _ils{0%{transform:rotate(0) scale(.92);opacity:.78}50%{transform:rotate(180deg) scale(1);opacity:1}to{transform:rotate(360deg) scale(.92);opacity:.78}}</style>
+    </div>
+    <script>
+      // Hide inline loader on marketing pages — visitors shouldn't see an app-style loader.
+      // On analyze.* hosts every page except the /app workspace is a marketing page.
+      (function () {
+        var isAnalyzeHost = window.location.hostname.toLowerCase().indexOf('analyze.') === 0;
+        var isMarketingPage = isAnalyzeHost
+          ? window.location.pathname !== '/app'
+          : window.location.pathname === '/';
+        if (isMarketingPage) {
+          document.getElementById('inline-loader').style.display = 'none';
+        }
+      })();
+    </script>
+  <script defer src="https://static.cloudflareinsights.com/beacon.min.js/v4513226cdae34746b4dedf0b4dfa099e1781791509496" integrity="sha512-ZE9pZaUXND66v380QUtch/5sE9tPFh2zg45pR2PB0CVkCtOREv2AJKkSidISWkysEuQ0EH8faUU5du78bx87UQ==" data-cf-beacon='{"version":"2024.11.0","token":"b54a77e3d7f7475cb65956bcda7ea92c","server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
+</body>
+</html>
